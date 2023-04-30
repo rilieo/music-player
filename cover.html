@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="coverStyle.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body onclick="random_bg_color()">
+    <div>
+        <a href="#" class="next" onclick="replace()">&#8250;</a>
+    </div>
+    <h1 class="heading">Home</h1>
+    <div class="info">
+        <form class="info-box">
+            <label for="artist">Artist Name:</label><br>
+            <input type="text" id="artist"><br><br>
+
+            <label for="track-name">Song:</label><br>
+            <input type="text" id="track-name"><br><br>
+
+            <label for="color-bg">Color:</label><br>
+            <input type="text" id="color-bg"><br><br>
+
+            <label for="track-file">Music:</label><br>
+            <input type="file" id="track-file" accept=".mp3"><br><br>
+
+            <label for="track-bg">Video Background:</label><br>
+            <input type="file" id="track-bg" accept=".mp4"><br><br>
+
+            <input type="submit" id="submit" onclick="addTrack()" value="Submit">
+        </form>
+    </div>
+</body>
+</html>

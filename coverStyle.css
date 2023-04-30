@@ -1,0 +1,77 @@
+body{
+    font-family: 'Noto Sans', sans-serif;
+    background: #82c1cf;
+    animation-name: bg_color;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bg_color{
+    0%{
+        background-color: #EBFFF9;
+    }
+
+    20%{
+        background-color: #C6E4F7;
+    }
+
+    40%{
+        background-color: #EDDBFF;
+    }
+
+
+    60%{
+        background-color: #B1A3C7;
+    }
+
+
+    80%{
+        background-color: #C6E4F7;
+    }
+
+
+    100%{
+        background-color: #EBFFF9;
+    }
+}
+
+.info
+.info-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    display: inline;
+    padding: 8px 16px;
+}
+
+.next{
+    color:black;
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.next:hover{
+    opacity: 2.0;
+}
+
+.track-list{
+    overflow-x: hidden;
+    overflow-y: auto;
+}
